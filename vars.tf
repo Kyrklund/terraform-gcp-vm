@@ -35,6 +35,3 @@ variable "project"{
 variable "ssh_keys"{
     #["{user}:${file({ssh-key.pub})}", "{user}:${file({ssh-key.pub})}"]
 }
-
-variable "whitelist_ip"{
-}

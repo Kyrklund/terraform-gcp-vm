@@ -22,7 +22,6 @@ resource "google_compute_instance" "vm_instance" {
     # A default network is created for all GCP projects
     network       = var.network
     access_config {
-      #nat_ip = var.whitelist_ip
     }
   }
   metadata = {
